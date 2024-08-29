@@ -1,0 +1,17 @@
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Brand</th>
+        <th>Color</th>
+        <th>Price</th>
+        <th>Discount</th>
+        <th>Netprice</th>
+    </tr>
+    <tr *ngFor="let n of mob">
+        <td>{{n.id}}</td>
+        <td>{{n.brand}}</td>
+       
+        <td>{{n.price}}</td>
+        <td>{{n.discountper}}</td>
+        <td>{{n.netprice}}</td>
+    </table>
